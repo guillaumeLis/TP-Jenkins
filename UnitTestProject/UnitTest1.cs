@@ -1,21 +1,29 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JenkinsConsole;
+using NUnit.Framework;
+
 
 namespace UnitTestProject
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        [Test]
         public void TestAdd()
         {
-            Program.Add(5, 4);
+            Program prog = new Program();
+            int result = prog.Add(5, 4);
+            Assert.That(result, Is.EqualTo(9));
         }
 
+        [Test]
         public void TestDivision()
         {
-            Program.Division(4, 2);
+            Program prog = new Program();
+            float result = prog.Division(4, 2);
+            Assert.That(result, Is.EqualTo(2));
         }
+        
     }
 }
