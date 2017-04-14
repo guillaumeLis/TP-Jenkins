@@ -6,10 +6,20 @@ using System.Threading.Tasks;
 
 namespace JenkinsConsole
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+        }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static float Division(int a, int b)
+        {
+            return a / b;
         }
     }
 }
