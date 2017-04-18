@@ -14,7 +14,7 @@ namespace UnitTestProject
             //Test d'addition
             Program prog = new Program();
             int result = prog.Add(5, 4);
-            Assert.That(result, NUnit.Framework.SyntaxHelpers.Is.EqualTo(9));
+            Assert.AreEqual(result, 9);
         }
 
         [Test]
@@ -22,7 +22,7 @@ namespace UnitTestProject
         {
             Program prog = new Program();
             float result = prog.Division(4, 2);
-            Assert.That(result, NUnit.Framework.SyntaxHelpers.Is.EqualTo(2));
+            Assert.AreEqual(result, 2);
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace UnitTestProject
         {
             Program prog = new Program();
             int result = prog.Soustraction(4, 3);
-            Assert.That(result, NUnit.Framework.SyntaxHelpers.Is.EqualTo(1));
+            Assert.AreEqual(result, 1);
         }
 
     }
