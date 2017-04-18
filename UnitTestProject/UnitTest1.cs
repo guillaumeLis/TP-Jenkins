@@ -11,6 +11,7 @@ namespace UnitTestProject
         [Test]
         public void TestAdd()
         {
+            //Test d'addition
             Program prog = new Program();
             int result = prog.Add(5, 4);
             Assert.That(result, Is.EqualTo(9));
