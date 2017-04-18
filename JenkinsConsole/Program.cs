@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: CLSCompliant(true)]
 namespace JenkinsConsole
 {
     public class Program
