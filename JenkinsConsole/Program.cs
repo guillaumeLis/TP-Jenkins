@@ -19,7 +19,7 @@ namespace JenkinsConsole
 
         public float Division(int a, int b)
         {
-            return a / b;
+            return (float)(a / b);
         }
 
         public int Soustraction(int a, int b)
