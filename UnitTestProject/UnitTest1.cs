@@ -6,7 +6,6 @@ using NUnit.Framework;
 
 namespace UnitTestProject
 {
-    [TestFixture]
     public class UnitTest1
     {
         [Test]
@@ -24,6 +23,16 @@ namespace UnitTestProject
             float result = prog.Division(4, 2);
             Assert.That(result, Is.EqualTo(2));
         }
-        
+
+        [Test]
+        public void TestSoustraction()
+        {
+            Program prog = new Program();
+            int result = prog.Soustraction(4, 3);
+            Assert.That(result, Is.EqualTo(1));
+        }
+
     }
+
+
 }

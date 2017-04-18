@@ -21,5 +21,10 @@ namespace JenkinsConsole
         {
             return a / b;
         }
+
+        public int Soustraction(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
