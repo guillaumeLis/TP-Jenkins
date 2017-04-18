@@ -21,7 +21,7 @@ namespace UnitTestProject
         public void TestDivision()
         {
             Program prog = new Program();
-            float result = prog.Division(4, 2);
+            float result = prog.Division(4f, 2f);
             Assert.AreEqual(result, 2f);
         }
 

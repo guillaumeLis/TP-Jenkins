@@ -17,7 +17,7 @@ namespace JenkinsConsole
             return a + b;
         }
 
-        public float Division(int a, int b)
+        public float Division(float a, float b)
         {
             return (float)(a / b);
         }
