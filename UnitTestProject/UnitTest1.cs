@@ -22,7 +22,7 @@ namespace UnitTestProject
         {
             Program prog = new Program();
             float result = prog.Division(4, 2);
-            Assert.AreEqual(result, 2);
+            Assert.AreEqual(result, 2f);
         }
 
         [Test]
