@@ -2,7 +2,7 @@
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JenkinsConsole;
 using NUnit.Framework;
-
+using NUnit.Framework.SyntaxHelpers;
 
 namespace UnitTestProject
 {
