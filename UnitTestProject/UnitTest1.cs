@@ -3,6 +3,7 @@ using JenkinsConsole;
 using NUnit.Framework;
 
 [assembly: CLSCompliant(true)]
+
 namespace UnitTestProject
 {
     [TestFixture]
