@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 [assembly: CLSCompliant(true)]
+
 namespace JenkinsConsole
 {
     public class Program
@@ -23,7 +24,8 @@ namespace JenkinsConsole
         {
             return a - b;
         }
-        static void Main()
+
+        private static void Main()
         {
         }
     }
