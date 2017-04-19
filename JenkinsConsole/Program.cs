@@ -9,10 +9,6 @@ namespace JenkinsConsole
 {
     public class Program
     {
-        static void Main()
-        {
-        }
-
         public int Add(int a, int b)
         {
             return a + b;
@@ -26,6 +22,9 @@ namespace JenkinsConsole
         public int Soustraction(int a, int b)
         {
             return a - b;
+        }
+        static void Main()
+        {
         }
     }
 }

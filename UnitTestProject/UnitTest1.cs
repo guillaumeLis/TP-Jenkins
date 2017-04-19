@@ -1,5 +1,4 @@
 ﻿using System;
-//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JenkinsConsole;
 using NUnit.Framework;
 
@@ -12,7 +11,7 @@ namespace UnitTestProject
         [Test]
         public void TestAdd()
         {
-            //Test d'addition
+            // Test d'addition
             Program prog = new Program();
             int result = prog.Add(5, 4);
             Assert.AreEqual(result, 9);
@@ -33,8 +32,5 @@ namespace UnitTestProject
             int result = prog.Soustraction(4, 3);
             Assert.AreEqual(result, 1);
         }
-
     }
-
-
 }
